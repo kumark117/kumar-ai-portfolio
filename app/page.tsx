@@ -40,12 +40,12 @@ export default function Home() {
 
             <div className="flex gap-4 mt-3">
 
-              <a href="#" className="text-blue-600 hover:underline">
+              <a href="https://next-promptbridge-ai.vercel.app/" className="text-blue-600 hover:underline">
                 Live Demo
               </a>
 
               <a
-                href="https://github.com/kumark117"
+                href="https://github.com/kumark117/next-promptbridge-ai"
                 className="text-blue-600 hover:underline">
                 GitHub
               </a>
@@ -58,7 +58,7 @@ export default function Home() {
           <div className="border p-5 rounded bg-yellow-100" style={{ borderRadius: 15 }}>
 
             <h3 className="text-xl font-bold">
-              Code Repo RAG
+              AI Code Repository RAG Search
             </h3>
 
             <p className="mt-2">
