@@ -100,7 +100,7 @@ export default function Home() {
           href="/resume.pdf"
           className="border px-4 py-2 rounded bg-white">
           Resume
-        </a>
+        </a>c
 
       </section>
 
