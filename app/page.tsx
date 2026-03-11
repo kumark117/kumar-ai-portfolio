@@ -123,6 +123,8 @@ export default function Home() {
 
         <a
           href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
           className="border px-4 py-2 rounded bg-white"
         >
           Resume
