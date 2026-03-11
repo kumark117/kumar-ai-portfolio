@@ -70,7 +70,7 @@ export default function Home() {
             <div className="flex gap-4 mt-3">
 
               <a
-                href="https://repo-vecdb-query-rag-2ju7oybp9-kumark117s-projects.vercel.app/"
+                href="https://repo-vecdb-query-rag-ai.vercel.app/"
                 className="text-blue-600 hover:underline">
                 Live Demo
               </a>
