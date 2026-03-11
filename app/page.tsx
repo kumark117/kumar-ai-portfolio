@@ -3,24 +3,29 @@ export default function Home() {
   return (
 
   <main style={{ background: 'green' }} className="max-w-3xl mx-auto px-6 py-16 space-y-12">
+
       <section>
+
         <h1 className="text-5xl font-bold tracking-tight" style={{ color: "yellow" }}>
           Kumar Krishnamoorthy
         </h1>
-          <p className="mt-4 text-xl text-gray-200">
-          building AI solutions for the future..++
+
+        <p className="mt-4 text-xl text-gray-200">
+          Building practical AI systems with LLMs, RAG, and modern web technologies.
         </p>
 
         <div className="text-xl text-gray-200">
           <br/>
-        Architect → AI Engineer
-        <br />
-        React • TypeScript • Next.js • RAG • OpenAI APIs
+          Architect → AI Engineer
+          <br />
+          React • TypeScript • Next.js • RAG • OpenAI APIs
+          <br/>
+        </div>
+
+        <hr style={{ borderColor: 'yellow' }} />
         <br/>
-      </div>
-    <hr style={{ borderColor: 'yellow' }} />
-<br/>
-        <div className="text-xl text-gray-200" style={{ color:"" }}>
+
+        <div className="text-xl text-gray-200">
           Projects(2)
         </div>
 
@@ -40,13 +45,21 @@ export default function Home() {
 
             <div className="flex gap-4 mt-3">
 
-              <a href="https://next-promptbridge-ai.vercel.app/" className="text-blue-600 hover:underline">
+              <a
+                href="https://next-promptbridge-ai.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
                 Live Demo
               </a>
 
               <a
                 href="https://github.com/kumark117/next-promptbridge-ai"
-                className="text-blue-600 hover:underline">
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
                 GitHub
               </a>
 
@@ -71,13 +84,19 @@ export default function Home() {
 
               <a
                 href="https://repo-vecdb-query-rag-ai.vercel.app/"
-                className="text-blue-600 hover:underline">
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
                 Live Demo
               </a>
 
               <a
                 href="https://github.com/kumark117/repo-vecdb-query-rag-ai"
-                className="text-blue-600 hover:underline">
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
                 GitHub
               </a>
 
@@ -85,22 +104,29 @@ export default function Home() {
 
           </div>
 
-
         </div>
 
-      </section><hr style={{ borderColor: 'yellow' }} /><section className="flex gap-6">
+      </section>
+
+      <hr style={{ borderColor: 'yellow' }} />
+
+      <section className="flex gap-6">
 
         <a
           href="https://github.com/kumark117"
-          className="border px-4 py-2 rounded bg-white">
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border px-4 py-2 rounded bg-white"
+        >
           GitHub
         </a>
 
         <a
           href="/resume.pdf"
-          className="border px-4 py-2 rounded bg-white">
+          className="border px-4 py-2 rounded bg-white"
+        >
           Resume
-        </a>c
+        </a>
 
       </section>
 
